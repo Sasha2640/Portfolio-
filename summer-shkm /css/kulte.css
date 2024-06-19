@@ -1,0 +1,150 @@
+.container-to-titles-promo-watch-info{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 100px;
+}
+.promo-watch-info{
+	padding: 23px;
+	padding-left: 15px;
+}
+.title-promo-watch-info{
+	width: 430px;
+	height: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.arrow-img-arrow-img-container-center-block-watch-info{
+	width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.img-gallery-img-container-center-block-watch-info{
+	width: 130px;
+	height: 130px;
+}
+.gallery-img-container-center-block-watch-info{
+	width: 700px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 115px;
+}
+.img-container-center-block-watch-info{
+	width: 500px;
+	height: 725	px;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: center;
+}
+.img-arrow-img-arrow-img-container-center-block-watch-infoons{
+	width: 575px;
+	height: 575px;
+}
+.reminci-container-catalog{
+	height: 575px;
+}
+
+
+.text-text-title-container-container-text-conteiner-center-block-watch-infoon{
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 37px;
+	sletter-spacing: 0.05em;
+}
+.text-text-title-container-container-text-conteiner-center-block-watch-infotw{
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0em;
+	color: #686868;
+}
+.title-container-text-conteiner-center-block-watch-info{
+	width: 560px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.text-conteiner-center-block-watch-info{
+	width: 580px;
+	height: 625px;
+	background: #FDFDFB;
+	padding: 5px;
+	padding-left: 50px;
+	display: flex;
+	flex-direction:column;
+	justify-content: flex-start;	
+}
+.img-title-container-text-conteiner-center-block-watch-info{
+	width: 21px;
+	height: 17px;
+}
+.text-title-container-text-conteiner-center-block-watch-info{
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+}
+.opuc-text-conteiner-center-block-watch-info{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.title-container-text-conteiner-center-block-watch-infotw{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start
+}
+.text-title-container-text-conteiner-center-block-watch-infoon{
+	text-decoration:underline;
+	margin-right: 50px;
+	color: #c4c0b6;
+}
+.text-text-container-text-conteiner-center-block-watch-info{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 23px;
+	letter-spacing: 0em;
+}
+.button-watch-info{
+	width: 185px;
+	height: 60px;
+	background: #31302c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block-end-container-reminci-container-catalog{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.text-button-watch-info{
+	color: white;
+}
+.center-block-watch-info{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.img-arrow-img-arrow-img-container-center-block-watch-infoon{
+	width: 350px;
+	height: 450px;
+}
+.img-end-container-reminci-container-catalog{
+	width: 450px;
+	height: 450px;
+}
+.img-arrow-img-arrow-img-container-center-block-watch-info{
+	width: 12px;
+	height: 23px;
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <input id="burger" type="checkbox" />
+          <label for="burger">
+           <span class="span"></span>
+            <span class="span"></span>
+            <span class="span"></span>
+          </label>
+
+          <ul class="ul">
+            <li>
+              <a href="#main"><p class="header-text">Головна</p></a>
+            </li>
+            <li>
+              <a href="#aboutme"><p class="header-text">Про мене</p></a>
+            </li>
+            <li>
+              <a href="#skills"><p class="header-text">Мої навички</p></a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="header-buton">
+                  <div class="header-buton-text">Портфоліо</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#work"><p class="header-text">Мої роботи</p></a>
+            </li>
+            <li>
+              <a href="#review"><p class="header-text">Відгуки</p></a>
+            </li>
+            <li>
+              <a href="#footer"><p class="header-text">Контакти</p></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main" id="main">
+        <p class="text-main first-text-main">Привіт!</p>
+        <p class="text-main last-text-main">Я FRONT END DEVELOPER</p>
+        <button class="butoon-main">
+          <a href="#aboutme"> <p class="text-button-main">Про мене</p></a>
+          <img
+            src="img/about-me.png"
+            alt="Тут має бути зоображення"
+            class="button-img"
+          />
+        </button>
+        <picture class="my-image">
+          <source
+            media="(min-width:1280px )"
+            srcset="img/my-image.png"
+            sizes=""
+          />
+          <source
+            media="(min-width: 620px) and (max-width:1279px)"
+            srcset="img/tablet-img.png"
+            szizes=""
+          />
+          <source media="(max-width: 620px)" srcset="img/mobile.png" sizes="" />
+          <img src="img/my-image.png" alt="" />
+        </picture>
+      </main>
+      <section class="about-me" id="aboutme">
+        <p class="about-title-text">Про мене</p>
+        <picture class="about-me-picture">
+          <source
+            media="(min-width:768px )"
+            srcset="img/my-image-two.png"
+            sizes=""
+          />
+          <source
+            media="(min-width: 620px) and (max-width:1279px)"
+            srcset="img/my-image-two.png"
+            sizes=""
+            class="about-me-picture"
+          />
+          <source media="(max-width: 620px)" srcset="img/mobile.png" sizes="" />
+          <img src="img/my-image.png" alt="" />
+        </picture>
+        <p class="about-text">
+          Мене звати Олександр, я є верстальником. Я живу та народився в
+          Україні, а саме в Івано-Франківську. Я вивчаю програмування вже 4
+          роки, за цей час я досконало вивчив дві мови програмування.Також, я
+          можу виконувати важкі сайти
+        </p>
+        <button class="about-button">
+          <a href="#skills"> <p class="text-butoon-about">Мої навички</p></a>
+          <img src="img/about.png" alt="" class="img-button-about" />
+        </button>
+      </section>
+      <section class="skils" id="skills">
+        <p class="title-skils">Мої навички</p>
+        <div class="left-skills">
+          <div class="title-left-skills">Hard skils</div>
+          <p class="text-left-skils">HTML</p>
+          <p class="text-left-skils">CSS</p>
+          <p class="text-left-skils">FlexBox</p>
+          <p class="text-left-skils">Grid</p>
+        </div>
+        <div class="center-skils-image">
+          <img src="img/lamp.png" alt="" class="center-skils-img" />
+        </div>
+        <div class="right-skills">
+          <p class="title-right-skills">Soft Skils</p>
+          <div class="right-text">
+            <p class="text-right-skils">Стресостійкість</p>
+            <p class="text-right-skils">Менеджмент</p>
+            <p class="text-right-skils">Командна робота</p>
+            <p class="text-right-skils">Співпраця</p>
+            <p class="text-right-skils">Пунктуальність</p>
+            <p class="text-right-skils">Багатозадачність</p>
+            <p class="text-right-skils">Ініціативність</p>
+            <p class="text-right-skils">Допитливість</p>
+            <p class="text-right-skils">Відповідальність</p>
+            <p class="text-right-skils">Оптимізм</p>
+            <p class="text-right-skils">Критичне мислення</p>
+            <p class="text-right-skils">Нестандартне мислення</p>
+          </div>
+        </div>
+      </section>
+      <section class="works" id="work">
+        <p class="text-works">Мої роботи</p>
+        <div class="work-works veb-studio">
+          <img src="img/studio.png" alt="" class="works-img" />
+          <div class="left-block-works">
+            <p class="title-works">"Веб-студія"</p>
+            <p class="studio-text">
+              Проект про організацію інтелектуального колективу. В цьому проекті
+              використано такі технології як: <br />
+              - <span>Html; Css</span> <br />
+              - <span>FlexBox</span> <br />
+              Моя роль в цьому проекті : Team leader
+            </p>
+            <button class="works-but">
+              <a href="veb-studio-Pidlesnuk /index.html">
+                <p class="text-button">Проект</p></a
+              >
+              <img src="img/Vector.png" alt="" class="img-works" />
+            </button>
+          </div>
+        </div>
+        <div class="work-works-par denim">
+          <img src="img/denim.png" alt="" class="works-img-par" />
+          <p class="title-works-par">"Denim"</p>
+          <p class="studio-text-par">
+            Інтернет-магазин продукції “Denim”. В цьому проекті було використано
+            такі технології як: <br />
+            - <span>Html; Css</span> <br />
+            - <span>FlexBox</span> <br />
+            Моя роль в цьому проекті: Developer
+          </p>
+          <button class="works-but-par">
+            <a href="denim_project/index.html">
+              <p class="text-button">Проект</p></a
+            >
+            <img src="img/Vector.png" alt="" class="img-works-par" />
+          </button>
+        </div>
+        <div class="work-works watch">
+          <img src="img/watch.png" alt="" class="works-img" />
+          <p class="title-works">"Conquest"</p>
+          <p class="studio-text">
+            Інтернет-магазин годинників. В цьому проекті було використано такі
+            технології як: <br />
+            - <span>Html; Css</span> <br />
+            - <span>FlexBox</span> <br />
+            Моя роль в цьому проекті : Developer
+          </p>
+          <button class="works-but">
+            <a href="summer-shkm /main-page.html">
+              <p class="text-button">Проект</p></a
+            >
+            <img src="img/Vector.png" alt="" class="img-works" />
+          </button>
+        </div>
+        <div class="work-works-par ukraine">
+          <img src="img/ukraine.png" alt="" class="works-img-par" />
+          <p class="title-works-par">“Україна після перемоги”</p>
+          <p class="studio-text-par">
+            Проект про майбутнє нашої країни. В цьому проекті
+            було використано такі технології як: <br />
+            - <span>Html; Css</span> <br />
+            - <span>FlexBox</span> <br />
+            Моя роль в цьому проекті: Developer
+          </p>
+          <button class="works-but-par">
+            <a href="Project/index.html"> <p class="text-button">Проект</p></a>
+            <img src="img/vector.png" alt="" class="img-works-par" />
+          </button>
+        </div>
+      </section>
+
+      <section class="review" id="review">
+        <p class="title-review">Відгуки</p>
+
+        <img src="img/last-arrow.png" alt="" class="last-arrow" />
+
+        <div class="block-review review-one">
+          <img src="img/people.png" alt="" class="review-image" />
+          <div class="stars-review">
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+          </div>
+          <p class="review-text">Ім'я та Прізвище</p>
+          <p class="review-two-text">Відгук</p>
+        </div>
+        <div class="block-review review-two">
+          <img src="img/people.png" alt="" class="review-image" />
+          <div class="stars-review">
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+          </div>
+          <p class="review-text">Ім'я та Прізвище</p>
+          <p class="review-two-text">Відгук</p>
+        </div>
+
+        <div class="block-review review-thre">
+          <img src="img/people.png" alt="" class="review-image" />
+          <div class="stars-review">
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+            <img src="img/star.png" alt="" class="star-review" />
+          </div>
+          <p class="review-text">Ім'я та Прізвище</p>
+          <p class="review-two-text">Відгук</p>
+        </div>
+        <img src="img/arrow.png" alt="" class="arrow-review" />
+      </section>
+
+      <footer class="footer" id="footer">
+        <p class="title-footer">Портфоліо</p>
+        <div class="left-footer">
+          <p class="left-footer-text">Головна</p>
+          <p class="left-footer-text"><span>Про мене</span></p>
+          <p class="left-footer-text">Мої навички</p>
+          <p class="left-footer-text"><span>Мої роботи</span></p>
+          <p class="left-footer-text">Відгуки</p>
+          <p class="left-footer-text"><span>Контакти</span></p>
+          <img src="img/line.png" alt="" class="footer-line" />
+          <div class="contacts-footer">
+            <a href="mailto:sasha.pidlesnuk.school@gmail.com"><img src="img/email.png" alt="" class="contacts-img" /></a>
+            <a href="https://www.instagram.com/sashko_pidlesniuk?igsh=ZXNjdDlvbHQ1cHdp&utm_source=qr"><img src="img/instagram.png" alt="" class="contacts-img" /></a>
+            <a href="https://www.facebook.com/sashko.pidlesniuk"><img src="img/facebook.png" alt="" class="contacts-img" /></a>
+          </div>
+        </div>
+        <div class="right-footer">
+          <p class="text-right-footer">Ім'я</p>
+          <p class="text-right-footer">Email</p>
+          <p class="text-right-footer">Мета</p>
+          <p class="text-right-footer">Повідомлення</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
